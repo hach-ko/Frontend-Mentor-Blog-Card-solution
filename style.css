@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.mainscreen {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid black ;
+    border-radius: 6%;
+    box-shadow: 8px 8px 0 black;
+    
+}
+
+.mainimg img {
+    margin: 30px;
+    margin-bottom: 0px;
+    border-radius: 4.5%;
+}
+
+.learning-button {
+    background-color:hsl(47, 88%, 63%) ;
+    height: 30px;
+    width: 90px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.learning-button p {
+    line-height: 30px;
+}
+
+span {
+    font-size: 15px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+h2 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+}
+#one {
+    margin-top: 25px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.av-container {
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Aligns with other content */
+    width: 30px; /* Just enough for the avatar */
+
+}
+
+.av {
+    width: 25px; /* Fixed size for avatar */
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+
+}
+
+.av img {
+    width: 100%; /* Fill container */
+    height: 100%;
+    object-fit: cover; /* ← THIS makes image fit properly */
+}
